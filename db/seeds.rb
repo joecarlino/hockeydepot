@@ -1,4 +1,4 @@
-brands = %w[bauer ccm true]
+brands = %w[bauer ccm true stx warrior]
 curves = %w[mid heel toe]
 sizes  = %w[senior junior youth]
 flexes = %w[mid heel toe]
