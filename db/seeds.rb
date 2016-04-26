@@ -1,7 +1,8 @@
-brands = %w[bauer ccm true stx warrior]
-curves = %w[mid heel toe]
-sizes  = %w[senior junior youth]
-flexes = %w[mid heel toe]
+brands = %w[bauer ccm true stx warrior sherwood]
+curves = %w[mid heel toe mid-heel]
+sizes  = %w[senior intermediate junior youth]
+flexes = %w[stiff senior whip intermediate-stiff intermidate-regular
+intermediate-light junior junior-light youth]
 
 brands.each { |b| Brand.find_or_create_by(name: b) }
 curves.each { |c| Curve.find_or_create_by(name: c) }
